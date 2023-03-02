@@ -27,7 +27,7 @@ public class MavenWebProject extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		resp.setContentType("text/plain");
-		resp.getWriter().write("Maven Web Project(war file) is deployed on Tomcat Server");
+		resp.getWriter().write("Welcome..!! portalApplication.war file is sucsessfully deployed on tomcat server");
 		
 		
 	}
